@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f5f3ef;
+  color: #252422;
+}
+
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eyebrow {
+  margin-bottom: 18px;
+  letter-spacing: 3px;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-btn {
+  text-decoration: none;
+}
