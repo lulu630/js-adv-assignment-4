@@ -43,3 +43,18 @@ h1 {
 }
 
 
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.trail-facts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trail-fact {
+  display: flex;
+  flex-direction: column;
+}
