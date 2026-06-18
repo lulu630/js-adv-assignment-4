@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Parks Explorer</title>
+  </head>
+  <body>
+
+
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="/Videos/hero.mp4" type="video/mp4" />
+      </video>
+      
+      <div class="overlay"></div>
+      <div class="hero-content">
+      <h1 class="title">Where nature tells <br> its greatest stories</h1>
+      <p>Discover breathtaking landscapes, <br> iconic trails and unforgettable views</p>
+      <a href="#popular-parks" class="hero-btn">Start Exploring </a>
+      </div>
+    </section>
+
+
+    <section class="popular-parks" id="popular-parks">
+      <div class="parks-header">
+        <h2>Discover Most <br> Spectacular Places</h2>
+        
+        <div class="parks-controls">
+          <button class="swiper-button-prev" type="button"></button>
+          <button class="swiper-button-next" type="button"></button>
+        </div>
+      </div>
+      
+      <div class="swiper">
+        <div class="swiper-wrapper"></div>
+      </div>
+    </section>
+
+
+    <section class="park-details">
+      <img class="details-image" src="" alt="" />
+      
+      <div class="details-content">
+        <p class="details-type"></p>
+        <h2 class="details-title"></h2>
+        <p class="details-location"></p>
+        <p class="details-description"></p>
+        
+        <div class="details-stats">
+          <p>Established: <span class="details-established"></span></p>
+          <p>Area: <span class="details-area"></span></p>
+          <p>Elevation: <span class="details-elevation"></span></p>
+        </div>
+     </div>
+    </section>
+
+
+	    <section class="footer">
+	      <h2>Why Visit National Parks?</h2>
+	    </section>
+
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
