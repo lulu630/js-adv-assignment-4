@@ -9,13 +9,12 @@
 
 :root {
   --bg: #f0ede5;
-  --text: #010101;
-  --text-h: ;
+  --text: #1c1c1b;
   --text-on-dark: white;
   --accent: #344421;
   --buttons: #63702F;
-  --border: ;
-  --surface:#E4EACD ;
+  --border: #344421;
+  --surface:#d8dbc7;
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
   
@@ -44,7 +43,7 @@ html {
   gap: 30px;
   background-size: cover;
   background-position: center;
-  padding: 0 155px;
+  padding: 0 clamp(24px, 8vw, 155px);
   position: relative;
 }
 
@@ -85,6 +84,7 @@ html {
   font-size: 58px;
   font-weight: 500;
   line-height: 89px;
+  width: 19ch;
 }
 
 
@@ -94,29 +94,26 @@ html {
   font-size: 19px;
   color: var(--text-on-dark);
   line-height: 32px;
+  width: 30ch;
 }
 
 
 .hero-btn {
+  align-self: flex-start;
   text-decoration: none;
   font-family: var(--main-font);
   font-size: 19px;
   color: var(--text-on-dark);
   background-color: var(--buttons);
-  border-radius: 10px;
+  border-radius: 18px;
   padding: 16px 24px;
-  position: absolute;
-  left: 65px;
-  bottom: -120px;  
-  transform: translateX(50%);
-  z-index: 1;
+  margin-top: 20px;
 }
 
 
 .hero-btn:hover {
   background-color: var(--accent);
 }
-
 
 
 /* ---- Main Content Section ---- */
@@ -143,11 +140,11 @@ html {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  padding: 80px 0;  
+  /* padding: 80px 0;   */
 }
 
-/* шапка секции */
 
+/* шапка секции */
 .parks-header {
   display: flex;
   align-items: center;
@@ -161,6 +158,7 @@ html {
   font-size: 39px;
   font-family: var(--titles-font);
   font-weight: 500;
+  width: 16ch;
 }
 
 
@@ -172,12 +170,12 @@ html {
 }
 
 
-/* кнопки, стрелки */
-
+/* кнопки-стрелки */
 .parks-controls {
   display: flex;
   gap: 16px;
 }
+
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -192,11 +190,15 @@ html {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
+
+
 .swiper-button-prev:hover, 
 .swiper-button-next:hover {
   color: var(--text-on-dark);
   background-color: var(--accent);
 }
+
+
 
 .swiper-button-prev::before,
 .swiper-button-next::before {
@@ -210,11 +212,10 @@ html {
   content: "\f060";
 }
 
+
 .swiper-button-next::before {
   content: "\f061";
 }
-
-
 
 
 @media (max-width: 700px) {
@@ -250,6 +251,7 @@ html {
 
 }
 
+
 .park-slide:hover img,
 .park-slide.is-pointer-over img {
   opacity: 0;
@@ -261,6 +263,7 @@ html {
 .park-slide.is-pointer-over::after {
   background: rgba(0, 0, 0, 0.15);
 }
+
 
 .park-slide h3,
 .park-slide p {
@@ -294,13 +297,16 @@ html {
   letter-spacing: 1.5px;
 }
 
+
 .park-location {
   bottom: 56px;
 }
 
+
 .park-country {
   bottom: 28px;
 }
+
 
 .park-slide p i {
   margin-right: 5px;
@@ -318,9 +324,7 @@ html {
 }
 
 
-
 /* ---- Park Details Section ---- */
-
 .park-details {
   background-color: var(--surface);
   display: grid;
@@ -417,20 +421,88 @@ html {
 }
 
 
-
+/* ---- footer ---- */
 
 .footer {
+  /* padding-bottom: 40px; */
+  padding: 80px 120px clamp(20px, 6vw, 118px);
 
 }
 
-
-.footer h2 {
-  margin-left: 10px;
-  margin-bottom: 40px;
+.footer-title h2 {
   color: var(--text);
-  font-size: 39px;
+  /* font-size: 39px; */
+  font-size: clamp(32px, 4vw, 39px);
+  font-family: var(--titles-font);
   font-weight: 500;
+  width: 13ch;
+  /* padding: 80px 118px; */
+    margin-bottom: 48px;
+
 }
+
+
+.reason-cards{
+/* display: flex; */
+/* flex-direction: row; */
+/* padding: 0 20px; */
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+align-items: stretch;
+gap: 16px;
+}
+
+
+.reason-card{
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  grid-template-rows: auto minmax(3.2em, auto) 1fr;
+  justify-items: center;
+  min-height: 240px;
+  gap: 16px;
+  border: 1px solid var(--accent);
+  border-radius: 18px;
+  padding: 24px 18px;
+}
+
+
+.icon{
+  width: 56px;
+  height: 56px;
+  color: var(--accent);
+  display: grid;
+  place-items: center;
+}
+
+
+
+.reason-card h3{
+font-size: 19px;
+color: var(--text);
+font-weight: 300;
+font-family: var(--titles-font);
+text-align: center;
+border-bottom: 1px solid var(--accent);
+padding-bottom: 8px;
+line-height: 1.25;
+/* display: flex;
+align-items: center; */
+
+
+}
+
+.reason-card p{
+  font-family: var(--main-font);
+  color: var(--text);
+  text-align: center;
+  line-height: 1.6; /* предпочтительный образ: размер шрифта умноженный на это число */
+
+}
+
+
 
 
 

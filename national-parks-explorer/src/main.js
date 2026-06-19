@@ -177,11 +177,11 @@ renderParkCards()
 
 const swiper = new Swiper('.swiper', {
   modules: [Navigation, Pagination, Mousewheel ],
-  loop: false, //для того, чтобы можно было сделать отступ слева
+  loop: false, //для того, чтобы можно было сделать отступ слева 
   slidesPerView: 4.2,
   spaceBetween: 24,
   slidesOffsetBefore: 118,
-  slidesOffsetAfter: 48,
+  slidesOffsetAfter: 118,
 
   speed: 350,
   touchRatio: 2,
@@ -204,12 +204,18 @@ const swiper = new Swiper('.swiper', {
   breakpoints: {
     0: {
       slidesPerView: 1.1,
+      slidesOffsetBefore: 24,
+      slidesOffsetAfter: 24,
     },
     768: {
       slidesPerView: 2.4,
+      slidesOffsetBefore: 48,
+      slidesOffsetAfter: 48,
     },
     1024: {
       slidesPerView: 4.2,
+      slidesOffsetBefore: 118,
+     slidesOffsetAfter: 118,
     },
   },
   
