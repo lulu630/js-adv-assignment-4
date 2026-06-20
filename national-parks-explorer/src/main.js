@@ -15,7 +15,7 @@ const parks = [
     country: "United States",
     location: "California,",
     image: "/Images/yosemite.jpg",
-    description: "Famous for its waterfalls, giant sequoias and granite cliffs.",
+    description: "Yosemite was first protected in 1864 and remains one of the most iconic landscapes in the Sierra Nevada. The park is famous for powerful waterfalls, deep valleys, granite cliffs and ancient giant sequoias. Its scenery was shaped by glaciers, which carved the dramatic form of Yosemite Valley. Beyond the most visited viewpoints, Yosemite protects grand meadows, clear streams, lakes and high mountain wilderness. The park covers nearly 1,200 square miles, giving wildlife and plant communities room to thrive. It is a place where geology, conservation history and High Sierra beauty all meet.",
     established: 1890,
     area: "3,070 km²",
     elevation: "3,997 m",
@@ -27,7 +27,7 @@ const parks = [
     country: "South Africa",
     location: "Limpopo & Mpumalanga,",
     image: "/Images/kruger.jpg",
-    description: "One of Africa's largest game reserves, home to the Big Five.",
+    description: "Kruger is one of Africa's great wildlife reserves and the flagship park of South African National Parks. The protected area covers nearly 2 million hectares across the Lowveld of northeastern South Africa. It was first established to protect wildlife in 1898 and later became one of South Africa's best known national parks. Kruger is home to the Big Five and an exceptional range of life, including hundreds of bird species and well over one hundred mammal species. SANParks also records rich plant, reptile, amphibian and fish diversity across the park. Alongside its wildlife, Kruger protects cultural heritage sites, including rock paintings and archaeological places such as Masorini and Thulamela.",
     established: 1926,
     area: "19,623 km²",
     elevation: "840 m",
@@ -39,7 +39,7 @@ const parks = [
     country: "Wales",
     location: "North Wales,",
     image: "/Images/snowdonia.jpg",
-    description: "Known for rugged mountains, glacial valleys and Wales' highest peak.",
+    description: "Eryri, also known as Snowdonia, is Wales' largest national park, covering 823 square miles. Its landscape includes towering peaks, glacial valleys, lakes, rivers, forests and 74 miles of coastline. Yr Wyddfa, also called Snowdon, is the park's most famous summit and the highest mountain in Wales. The park contains nine mountain ranges and thousands of miles of routes for walking and exploring. Eryri is also a living cultural landscape, home to local communities where the Welsh language is part of everyday life. Its geology, native woodland, wildlife and heritage make it much more than a mountain destination.",
     established: 1951,
     area: "2,130 km²",
     elevation: "1,085 m",
@@ -51,7 +51,7 @@ const parks = [
     country: "Tanzania",
     location: "Mara & Simiyu Regions,",
     image: "/Images/serengeti.jpg",
-    description: "World-famous for the Great Migration and abundant wildlife.",
+    description: "Serengeti National Park protects vast plains of savanna in northern Tanzania. UNESCO describes its annual migration of wildebeest, gazelles and zebras, followed by predators, as one of the world's most impressive natural events. The wider migration route depends on seasonal water and grazing across the Serengeti ecosystem. The park supports one of the planet's most important predator-prey systems, with lions, leopards, cheetahs, hyenas and wild dogs. UNESCO also notes globally threatened or endangered species such as black rhinoceros, elephant, wild dog and cheetah. More than 500 bird species are present seasonally or year-round, adding to the park's remarkable biodiversity.",
     established: 1951,
     area: "14,763 km²",
     elevation: "1,850 m",
@@ -63,7 +63,7 @@ const parks = [
     country: "Canada",
     location: "Alberta,",
     image: "/Images/jasper.jpg",
-    description: "A vast wilderness of glaciers, lakes and the Canadian Rockies.",
+    description: "Jasper is the largest national park in the Canadian Rockies and part of the Canadian Rocky Mountain Parks UNESCO World Heritage Site. Parks Canada describes it as a place of abundant wildlife and an extensive trail network. The park includes rugged mountains, glaciers, lakes, waterfalls, hot springs and wide valleys shaped by ice and rivers. It is also known as one of the world's largest dark sky preserves, making the night sky part of the park experience. Visitors explore different regions of the park, from frontcountry viewpoints to remote backcountry routes. Jasper's scale gives it a strong wilderness character while still offering access to classic Rocky Mountain landscapes.",
     established: 1907,
     area: "10,878 km²",
     elevation: "3,747 m",
@@ -77,7 +77,7 @@ const parks = [
     country: "Jordan",
     location: "Aqaba Governorate,",
     image: "/Images/wadi-rum.jpg",
-    description: "A dramatic desert landscape of sandstone mountains and red dunes.",
+    description: "Wadi Rum is a protected desert landscape in southern Jordan, close to the border with Saudi Arabia. UNESCO lists it as a mixed natural and cultural World Heritage site covering about 74,000 hectares. The area is known for narrow gorges, natural arches, towering cliffs, caverns, ramps and red sand valleys. Its sandstone and granite formations create the dramatic scenery often called the Valley of the Moon. Wadi Rum also preserves evidence of around 12,000 years of human occupation and interaction with the desert. UNESCO records about 25,000 rock carvings and 20,000 inscriptions, showing the development of human thought and early alphabetic writing.",
     established: 1998,
     area: "720 km²",
     elevation: "1,854 m",
@@ -89,7 +89,7 @@ const parks = [
     country: "Thailand",
     location: "Surat Thani Province,",
     image: "/Images/khao-sok.jpg",
-    description: "Ancient rainforest with limestone cliffs, caves and emerald lakes.",
+    description: "Khao Sok National Park protects rainforest, limestone mountains, caves, rivers and the striking Cheow Lan Lake. The park covers about 739 square kilometers in Surat Thani Province. It includes one of the largest remaining areas of virgin forest in southern Thailand. The rainforest is often described as ancient and unusually diverse, with dense vegetation, bamboo, lianas and buttress-rooted trees. Cheow Lan Lake, created by the Ratchaprapha Dam, is now famous for turquoise water and steep limestone cliffs. Wildlife in and around the park includes monkeys, hornbills, elephants, tapirs and the giant Rafflesia flower.",
     established: 1980,
     area: "739 km²",
     elevation: "960 m",
@@ -101,7 +101,7 @@ const parks = [
     country: "Argentina",
     location: "Santa Cruz Province,",
     image: "/Images/los-glaciares.jpg",
-    description: "Home to massive glaciers, snow-capped peaks and pristine lakes.",
+    description: "Los Glaciares National Park lies in Argentine Patagonia and is named for the many glaciers that shape its landscape. UNESCO describes it as an area of exceptional natural beauty with rugged mountains and numerous glacial lakes. Lake Argentino, one of its most important lakes, stretches about 160 kilometers. Many glaciers are fed by the South Patagonian Ice Field, one of the largest ice fields outside the polar regions. The Perito Moreno Glacier is especially famous for calving blue icebergs into Lake Argentino with dramatic crashes. The park also protects Patagonian steppe, Magellanic forest, high mountain habitats and iconic peaks such as Fitz Roy.",
     established: 1937,
     area: "7,269 km²",
     elevation: "3,405 m",
@@ -113,7 +113,7 @@ const parks = [
     country: "Chile",
     location: "Magallanes Region,",
     image: "/Images/torres-del-paine.jpg",
-    description: "Known for its granite towers, turquoise lakes and Patagonian landscapes.",
+    description: "Torres del Paine National Park is one of the defining landscapes of Chilean Patagonia. Its centerpiece is the Paine mountain group, including the three granite towers that give the park its name. The park brings together mountains, glaciers, rivers, waterfalls and vivid lakes such as Grey, Pehoe and Nordenskjold. It sits in a transition zone between Magellanic subpolar forest and Patagonian steppe. The Southern Patagonian Ice Field feeds glaciers in the park, including Grey, Dickson and Tyndall. Torres del Paine is also recognized as a UNESCO Biosphere Reserve and is known for wildlife such as guanacos, pumas, foxes, condors and many other birds.",
     established: 1959,
     area: "2,420 km²",
     elevation: "3,050 m",
@@ -176,7 +176,7 @@ function renderParkCards() {
 renderParkCards()
 
 const swiper = new Swiper('.swiper', {
-  modules: [Navigation, Pagination, Mousewheel ],
+  modules: [Navigation, Mousewheel ],
   loop: false, //для того, чтобы можно было сделать отступ слева 
   slidesPerView: 4.2,
   spaceBetween: 24,
@@ -213,14 +213,12 @@ const swiper = new Swiper('.swiper', {
       slidesOffsetAfter: 48,
     },
     1024: {
-      slidesPerView: 4.2,
+      slidesPerView: 4.1,
       slidesOffsetBefore: 118,
      slidesOffsetAfter: 118,
     },
   },
   
- 
-
 
   // pagination: {
   //   el: '.swiper-pagination',
