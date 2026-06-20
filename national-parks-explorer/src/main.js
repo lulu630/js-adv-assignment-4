@@ -6,7 +6,6 @@ import 'swiper/css/pagination'
 import './style.css'
 
 
-
 // parks array
 const parks = [
   {
@@ -69,8 +68,6 @@ const parks = [
     elevation: "3,747 m",
   },
 
-  
-
   {
     name: "Wadi Rum",
     type: "Valley",
@@ -118,9 +115,7 @@ const parks = [
     area: "2,420 km²",
     elevation: "3,050 m",
   },
-
 ];
-
 
 
 const swiperWrapper = document.querySelector(".swiper-wrapper");
@@ -138,7 +133,6 @@ let pointerY = null;
 
 
 // function that creates park cards from the array
-
 function renderParkCards() {
   parks.forEach((park) => {
     const slide = document.createElement("article");
@@ -158,20 +152,14 @@ function renderParkCards() {
 
     slide.append(image, title, country);
 
-
     slide.addEventListener("click", () => {
       showParkDetails(park);
       parkDetails.scrollIntoView({ behavior: "smooth", block: "start" });
     });
 
-
-
     swiperWrapper.append(slide);
-
   })
-
 };
-
 
 renderParkCards()
 
@@ -186,7 +174,6 @@ const swiper = new Swiper('.swiper', {
   speed: 350,
   touchRatio: 2,
   threshold: 2,
-  
   
   mousewheel: {
     forceToAxis: true,
@@ -219,17 +206,10 @@ const swiper = new Swiper('.swiper', {
     },
   },
   
-
-  // pagination: {
-  //   el: '.swiper-pagination',
-  //   clickable: true,
-  // }, ---- чтоб удалить точки под каруселью
-
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-    addIcons: false, //скрывает вшитые иконки стрелок
-
+    addIcons: false,
   },
 
 })
@@ -265,7 +245,6 @@ document.addEventListener("pointerleave", () => {
 
 swiper.on("setTranslate", updateCardUnderPointer);
 swiper.on("transitionEnd", updateCardUnderPointer);
-
 
 function showParkDetails (park) {
   detailsImage.src = park.image;
