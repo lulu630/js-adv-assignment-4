@@ -61,19 +61,6 @@ const parks = [
   },
 
   {
-    name: "Los Glaciares",
-    type: "National Park",
-    location: "Santa Cruz Province,",
-    country: "Argentina",
-    image: `${import.meta.env.BASE_URL}Images/los-glaciares.jpg`,
-    description: "Los Glaciares National Park lies in Argentine Patagonia and is named for the many glaciers that shape its landscape. UNESCO describes it as an area of exceptional natural beauty with rugged mountains and numerous glacial lakes. Lake Argentino, one of its most important lakes, stretches about 160 kilometers. Many glaciers are fed by the South Patagonian Ice Field, one of the largest ice fields outside the polar regions. The Perito Moreno Glacier is especially famous for calving blue icebergs into Lake Argentino with dramatic crashes. The park also protects Patagonian steppe, Magellanic forest, high mountain habitats and iconic peaks such as Fitz Roy.",
-    established: 1937,
-    area: "7,269 km²",
-    elevation: "3,405 m",
-    visitors: "~623K (2025)",
-  },
-
-  {
     name: "Snowdonia",
     type: "National Park",
     location: "North Wales,",
@@ -84,6 +71,19 @@ const parks = [
     area: "2,130 km²",
     elevation: "1,085 m",
     visitors: "~4M",
+  },
+
+   {
+    name: "Los Glaciares",
+    type: "National Park",
+    location: "Santa Cruz Province,",
+    country: "Argentina",
+    image: `${import.meta.env.BASE_URL}Images/los-glaciares.jpg`,
+    description: "Los Glaciares National Park lies in Argentine Patagonia and is named for the many glaciers that shape its landscape. UNESCO describes it as an area of exceptional natural beauty with rugged mountains and numerous glacial lakes. Lake Argentino, one of its most important lakes, stretches about 160 kilometers. Many glaciers are fed by the South Patagonian Ice Field, one of the largest ice fields outside the polar regions. The Perito Moreno Glacier is especially famous for calving blue icebergs into Lake Argentino with dramatic crashes. The park also protects Patagonian steppe, Magellanic forest, high mountain habitats and iconic peaks such as Fitz Roy.",
+    established: 1937,
+    area: "7,269 km²",
+    elevation: "3,405 m",
+    visitors: "~623K (2025)",
   },
 
    {
