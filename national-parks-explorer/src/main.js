@@ -115,6 +115,19 @@ const parks = [
     area: "2,420 km²",
     elevation: "3,050 m",
   },
+
+  {
+    name: "Plitvice Lakes",
+    type: "National Park",
+    country: "Croatia",
+    location: "Mala Kapela & Lička Plješivica,",
+    image: `${import.meta.env.BASE_URL}Images/plitvice.jpg`,
+    description: "Plitvice Lakes is Croatia's oldest and largest national park, set between the Mala Kapela and Lička Plješivica mountain ranges. Its lake system consists of 16 named lakes and numerous smaller ones arranged in natural cascades. Water flowing through the karst landscape deposits calcium carbonate, gradually forming the tufa barriers that separate the lakes and create waterfalls. This geological and biological process is still active, so the landscape continues to change over time. Most of the park is covered by well-preserved forests that provide habitat for brown bears, grey wolves, lynx and many rare species. Plitvice Lakes was added to the UNESCO World Heritage List in 1979 for its exceptional beauty and its ongoing natural processes.",
+    established: 1949,
+    area: "297 km²",
+    elevation: "1,279 m",
+  },
+
 ];
 
 
